@@ -1,5 +1,5 @@
-import ErrorBoundary from "./component/errorHandler";
+import ErrorScope from "./component/errorHandler";
 
 export {
-    ErrorBoundary
+    ErrorScope
 }

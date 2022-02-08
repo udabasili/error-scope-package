@@ -1,6 +1,6 @@
 {
   "name": "error-scope",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "My npm package for catching errors in a project",
   "author": "Udendu Abasili",
   "keywords": ["react", "error", "catcher"],
@@ -30,7 +30,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "cross-env NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "build": "cross-env NODE_ENV=production REACT_APP_BASE_URL='https://error-scope-ht1kv06vd-udabasili.vercel.app/' babel src/lib --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
